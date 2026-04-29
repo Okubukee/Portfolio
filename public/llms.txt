@@ -1,27 +1,33 @@
-# Daniel Cardenas — Developer & Creative Technologist
+# Daniel Cardenas — okubuke
 
-> Fullstack developer with 3+ years of experience building elegant solutions across web, game development, and AI. Based at okubuke.dev.
+> Fullstack software developer specialized in Go, Java, React and DevOps. Portfolio: okubukee.github.io/Portfolio
 
 ## About
-Daniel Cardenas (okubuke) is a multidisciplinary developer combining fullstack engineering, game design, and machine learning into cohesive digital experiences.
+Daniel Cardenas (okubuke) is a fullstack developer with 2+ years of experience building web applications, CLI tools, and software solutions. Passionate about creating elegant, functional digital experiences.
 
 ## Stack
-- **Frontend:** React, Vue.js, JavaScript (ES6+), CSS3
-- **Backend:** Node.js, Python, MongoDB, PostgreSQL
-- **Game Development:** Unity (C#), Godot, 2D/3D design
-- **AI & ML:** TensorFlow, PyTorch, NLP, ML Models
-- **Design:** Figma, UI/UX, Pixel Art, Branding
-- **DevOps:** Git, Docker, REST APIs, CI/CD
+- **Languages:** Java, Go, JavaScript, Kotlin, Python, C#
+- **Frontend:** React, Tailwind CSS, CSS3
+- **Backend:** Spring Boot, Flask, Hibernate, REST API
+- **Databases:** PostgreSQL, MongoDB, SQLite, Firebase
+- **DevOps:** Git, GitHub, Docker, CI/CD, Linux, Bash, NixOS
+- **Game Dev:** Unity, Godot, Lua
+- **AI & ML:** LLMs
+
+## Projects
+- **Terranova** — Modular Discord bot with moderation, auto-roles and custom commands, paired with a real-time web dashboard. (Go, Docker, SQLite, React)
+- **Xilo** — Open-source vault for sensitive data with local AES-256-GCM encryption, no external server dependency. (Go, Fyne, Argon2id)
+- **LogicMind** — Interactive algorithm visualizer with step-by-step animations for search and sorting algorithms. (Python, Flask, React, Docker)
+- **Chromp** — Web color toolkit for designers: palette generation, accessibility contrast checking, multi-format export. (Python, Flask, React, Docker)
+- **Swapify** — Fullstack marketplace built during a professional internship with auth, listings, swap system and admin panel. (Kotlin, Spring Boot, PostgreSQL, React, Docker)
+- **Portfolio** — This portfolio — terminal aesthetics, canvas animations, multi-language support (ES/PT/EN), interactive terminal. (React, Vite, CSS3)
 
 ## Stats
-- 3+ years programming
-- 20+ projects built
-- 6 technical specialization areas
+- 2+ years programming
+- 6 projects built
+- Open to work
 
 ## Contact
-- Email: hello@okubuke.com
-- Web: okubuke.dev
-- GitHub: github.com/okubuke
-
-## Philosophy
-Focused on combining technical functionality with exceptional design. Open source contributor and constant experimenter with emerging technologies.
+- Email: cardenasdcg@gmail.com
+- GitHub: github.com/Okubukee
+- Portfolio: okubukee.github.io/Portfolio
