@@ -5,6 +5,7 @@ const ITEMS = [
   'spring boot:run --profile=prod',
   'xilo --encrypt vault.db --algo=AES-256-GCM',
   'flask run --host=0.0.0.0',
+  'rm -rf /',
   'npm run build && git push origin main',
   'godot --export linux puzzle.tscn',
   'psql -U admin -d swapify -c "SELECT * FROM listings"',
