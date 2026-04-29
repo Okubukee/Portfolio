@@ -1,0 +1,80 @@
+.contact-content { max-width: 600px; margin: 0 auto; text-align: center; }
+
+.contact-forest {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.72rem;
+  line-height: 1.2; color: rgba(46,160,67,0.35);
+  white-space: pre; margin-bottom: 30px;
+  text-shadow: 0 0 6px rgba(46,160,67,0.3);
+}
+
+.contact-text { font-size: 0.9rem; color: #8b949e; margin-bottom: 14px; line-height: 1.8; }
+
+.contact-email-link {
+  display: inline-block; margin-bottom: 28px;
+  font-family: 'JetBrains Mono', monospace; font-size: 0.9rem;
+  color: var(--green); text-decoration: none;
+  border-bottom: 1px solid rgba(46,160,67,0.4);
+  transition: border-color 0.2s, color 0.2s;
+}
+.contact-email-link:hover { color: #fff; border-bottom-color: #fff; }
+
+.contact-btn {
+  display: inline-block; padding: 11px 36px;
+  border: 1px solid var(--green); background: var(--green-faint);
+  color: var(--green); text-decoration: none;
+  font-family: 'Pixelify Sans', sans-serif; font-weight: 700;
+  font-size: 0.9rem; letter-spacing: 2px;
+  transition: all 0.25s cubic-bezier(0.34,1.56,0.64,1); margin: 8px;
+}
+.contact-btn:hover {
+  background: var(--green); color: var(--bg);
+  transform: translate(-3px,-3px); box-shadow: 3px 3px 0 rgba(46,160,67,0.35);
+}
+
+.contact-form {
+  margin: 22px 0 10px;
+  display: flex; flex-direction: column; gap: 12px;
+  text-align: left;
+}
+.form-row { display: flex; gap: 12px; }
+.form-row .form-field { flex: 1; }
+.form-field { display: flex; flex-direction: column; gap: 5px; }
+
+.form-field label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.66rem; color: rgba(46,160,67,0.55);
+  text-transform: uppercase; letter-spacing: 1.2px;
+}
+
+.form-field input, .form-field textarea {
+  background: rgba(46,160,67,0.03);
+  border: 1px solid rgba(46,160,67,0.22);
+  color: var(--text); padding: 9px 12px;
+  font-family: 'JetBrains Mono', monospace; font-size: 0.8rem;
+  outline: none; resize: vertical;
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+.form-field input:focus, .form-field textarea:focus {
+  border-color: var(--green); background: rgba(46,160,67,0.06);
+}
+.form-field textarea { min-height: 88px; }
+
+.form-submit {
+  align-self: flex-start; padding: 9px 26px;
+  border: 1px solid var(--green); background: var(--green-faint);
+  color: var(--green);
+  font-family: 'JetBrains Mono', monospace; font-size: 0.76rem;
+  letter-spacing: 1.5px; text-transform: uppercase; cursor: none;
+  transition: all 0.2s ease;
+}
+.form-submit:hover:not(:disabled) { background: var(--green); color: var(--bg); }
+.form-submit:disabled { opacity: 0.45; cursor: not-allowed; }
+
+#form-status {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.75rem; letter-spacing: 1px; min-height: 18px;
+}
+#form-status.ok  { color: var(--green-bright); }
+#form-status.err { color: rgba(255,100,80,0.9); }
+
+@media (max-width: 560px) { .form-row { flex-direction: column; } }

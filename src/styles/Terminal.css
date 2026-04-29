@@ -1,0 +1,64 @@
+.terminal-window {
+  max-width: 740px;
+  border: 1px solid rgba(46,160,67,0.4);
+  background: rgba(5,12,7,0.97);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.82rem;
+}
+
+.terminal-topbar {
+  display: flex; align-items: center; gap: 7px;
+  padding: 9px 14px;
+  background: rgba(46,160,67,0.07);
+  border-bottom: 1px solid rgba(46,160,67,0.2);
+}
+
+.tdot { width: 11px; height: 11px; border-radius: 50%; }
+.tdot.r { background: #ff5f57; }
+.tdot.y { background: #ffbd2e; }
+.tdot.g { background: #28c840; }
+
+.terminal-title-bar {
+  font-size: 0.68rem; color: rgba(46,160,67,0.4);
+  margin-left: auto; letter-spacing: 1px;
+}
+
+.terminal-body {
+  padding: 14px 16px;
+  min-height: 210px; max-height: 360px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(46,160,67,0.25) transparent;
+}
+.terminal-body::-webkit-scrollbar { width: 4px; }
+.terminal-body::-webkit-scrollbar-track { background: transparent; }
+.terminal-body::-webkit-scrollbar-thumb { background: transparent; border-radius: 2px; }
+.terminal-body:hover::-webkit-scrollbar-thumb { background: rgba(46,160,67,0.3); }
+.terminal-body:hover::-webkit-scrollbar-thumb:hover { background: rgba(46,160,67,0.55); }
+
+.tline { margin-bottom: 3px; line-height: 1.65; white-space: pre-wrap; word-break: break-word; }
+.tline.cmd  { color: var(--green-bright); }
+.tline.out  { color: var(--text); }
+.tline.err  { color: rgba(255,100,80,0.85); }
+.tline.dim  { color: rgba(46,160,67,0.4); }
+.tline.dim .tcmd { color: var(--green-bright); }
+
+.terminal-input-row {
+  display: flex; align-items: center; gap: 8px;
+  padding: 9px 16px;
+  border-top: 1px solid rgba(46,160,67,0.15);
+}
+
+.term-prompt {
+  color: var(--green); white-space: nowrap;
+  -webkit-user-select: none; user-select: none;
+}
+
+#termInput {
+  flex: 1; background: none; border: none; outline: none;
+  font-family: 'JetBrains Mono', monospace; font-size: 0.82rem;
+  color: var(--green-bright); caret-color: var(--green);
+  cursor: none;
+}
+
+@media (max-width: 560px) { .terminal-body { min-height: 160px; } }

@@ -1,0 +1,15 @@
+footer {
+  text-align: center; padding: 48px 20px;
+  color: rgba(46,160,67,0.4);
+  font-family: 'JetBrains Mono', monospace; font-size: 0.8rem;
+  position: relative; z-index: 1;
+}
+
+.footer-tree {
+  font-size: 0.72rem; white-space: pre; line-height: 1.2;
+  margin-bottom: 20px; color: rgba(46,160,67,0.3);
+  text-shadow: 0 0 6px rgba(46,160,67,0.25);
+}
+
+.footer-cursor { animation: blink 1s step-end infinite; color: var(--green); }
+.footer-line   { color: rgba(46,160,67,0.25); margin-bottom: 8px; }

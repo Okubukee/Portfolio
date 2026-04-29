@@ -1,0 +1,27 @@
+# Daniel Cardenas — Developer & Creative Technologist
+
+> Fullstack developer with 3+ years of experience building elegant solutions across web, game development, and AI. Based at okubuke.dev.
+
+## About
+Daniel Cardenas (okubuke) is a multidisciplinary developer combining fullstack engineering, game design, and machine learning into cohesive digital experiences.
+
+## Stack
+- **Frontend:** React, Vue.js, JavaScript (ES6+), CSS3
+- **Backend:** Node.js, Python, MongoDB, PostgreSQL
+- **Game Development:** Unity (C#), Godot, 2D/3D design
+- **AI & ML:** TensorFlow, PyTorch, NLP, ML Models
+- **Design:** Figma, UI/UX, Pixel Art, Branding
+- **DevOps:** Git, Docker, REST APIs, CI/CD
+
+## Stats
+- 3+ years programming
+- 20+ projects built
+- 6 technical specialization areas
+
+## Contact
+- Email: hello@okubuke.com
+- Web: okubuke.dev
+- GitHub: github.com/okubuke
+
+## Philosophy
+Focused on combining technical functionality with exceptional design. Open source contributor and constant experimenter with emerging technologies.

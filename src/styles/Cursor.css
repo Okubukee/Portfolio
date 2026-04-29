@@ -1,0 +1,23 @@
+#cursor-canvas {
+  position: fixed; inset: 0;
+  pointer-events: none;
+  z-index: 99998;
+  will-change: transform;
+}
+
+#cursor-dot {
+  position: fixed; left: -20px; top: -20px;
+  width: 8px; height: 8px;
+  background: var(--green);
+  pointer-events: none;
+  z-index: 99999;
+  transform: translate(-50%,-50%);
+  transition: transform 0.12s ease, background 0.15s ease;
+  box-shadow: 0 0 8px rgba(46,160,67,0.9);
+  image-rendering: pixelated;
+}
+
+body.cursor-hover #cursor-dot {
+  transform: translate(-50%,-50%) scale(2.2);
+  background: var(--green-bright);
+}

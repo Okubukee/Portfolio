@@ -1,0 +1,28 @@
+@keyframes blink       { 0%,100%{opacity:1} 50%{opacity:0} }
+@keyframes fadeIn      { from{opacity:0} to{opacity:1} }
+@keyframes slideDown   { from{opacity:0;transform:translateY(-24px)} to{opacity:1;transform:translateY(0)} }
+@keyframes typing      { from{max-width:0} to{max-width:600px} }
+@keyframes caretBlink  { 0%,100%{border-color:var(--green-bright)} 50%{border-color:transparent} }
+
+@keyframes glitch {
+  0%,86%,100% { transform:none; text-shadow:0 0 30px rgba(46,160,67,0.4),0 0 60px rgba(46,160,67,0.15); }
+  87%  { transform:translate(-3px,1px);  text-shadow:-2px 0 rgba(255,0,80,0.6), 2px 0 rgba(0,200,255,0.6), 0 0 20px rgba(46,160,67,0.4); }
+  88%  { transform:translate(3px,-1px);  text-shadow: 2px 0 rgba(255,0,80,0.6),-2px 0 rgba(0,200,255,0.6), 0 0 20px rgba(46,160,67,0.4); }
+  89%  { transform:translate(-1px,2px);  text-shadow:0 0 30px rgba(46,160,67,0.6); }
+  90%  { transform:none; text-shadow:0 0 30px rgba(46,160,67,0.4),0 0 60px rgba(46,160,67,0.15); }
+}
+
+@keyframes ticker-seamless {
+  from { transform: translateX(-50%); }
+  to   { transform: translateX(0); }
+}
+
+@keyframes featuredGlow {
+  from { box-shadow:0 0 12px rgba(46,160,67,0.08); border-color:rgba(46,160,67,0.4); }
+  to   { box-shadow:0 0 35px rgba(46,160,67,0.22),0 0 70px rgba(46,160,67,0.06); border-color:var(--green); }
+}
+
+@keyframes statusPulse {
+  0%,100% { opacity:1; transform:scale(1); }
+  50%     { opacity:0.4; transform:scale(0.7); }
+}

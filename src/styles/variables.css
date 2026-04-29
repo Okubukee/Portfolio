@@ -1,0 +1,24 @@
+:root {
+  --green: #2ea043;
+  --green-bright: #48c968;
+  --green-dim: rgba(46,160,67,0.5);
+  --green-faint: rgba(46,160,67,0.08);
+  --bg: #0a1a0c;
+  --bg2: #0d2010;
+  --text: #c9d1d9;
+}
+
+[data-theme="mono"] {
+  --green: #d0d0d0;
+  --green-bright: #ffffff;
+  --green-dim: rgba(200,200,200,0.5);
+  --green-faint: rgba(200,200,200,0.07);
+  --bg: #0c0c0c;
+  --bg2: #141414;
+  --text: #b8b8b8;
+}
+
+body, .header, .section, footer,
+.pixel-border, .skill-category, .project-card, .stat-box {
+  transition: background 0.4s ease, border-color 0.4s ease, color 0.4s ease;
+}
