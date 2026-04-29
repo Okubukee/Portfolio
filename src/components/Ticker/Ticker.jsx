@@ -1,13 +1,16 @@
 const ITEMS = [
-  'git commit -m "always building"',
-  'npm run passion --level=∞',
-  'python3 train.py --creativity=max',
-  'unity3d --scene=PixelAdventure',
-  'docker push okubuke/portfolio:latest',
-  'figma --export=ui_masterpiece',
-  './ship_it.sh --quality=pixel-perfect',
-  'godot --build=puzzle_game',
-  'curl -X POST okubuke.dev/ideas',
+  'git commit -m "ship it"',
+  'go build -o terranova ./cmd/bot',
+  'docker compose up --build',
+  'spring boot:run --profile=prod',
+  'xilo --encrypt vault.db --algo=AES-256-GCM',
+  'flask run --host=0.0.0.0',
+  'npm run build && git push origin main',
+  'godot --export linux puzzle.tscn',
+  'psql -U admin -d swapify -c "SELECT * FROM listings"',
+  'argon2id --hash credentials.key',
+  'react-scripts start --port=3000',
+  'bash deploy.sh --env=production',
 ]
 
 function TickerContent() {
