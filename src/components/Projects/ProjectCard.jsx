@@ -22,12 +22,17 @@ export default function ProjectCard({ project }) {
 
   return (
     <div className={`project-card${project.featured ? ' featured' : ''}`}>
-      {project.featured && <div className="project-badge">★ FEATURED</div>}
+      {project.featured && <div className="project-badge">{t['proj-featured']}</div>}
       <div className="project-canvas-wrap">
         <canvas ref={canvasRef} className="proj-canvas" data-category={project.category} width={cw} height={ch} />
       </div>
       <div className="project-icon">{project.icon}</div>
       <h3 className="project-title">{t[project.titleKey]}</h3>
+      {project.status && (
+        <span className={`project-status project-status--${project.status}`}>
+          {t[`proj-status-${project.status}`]}
+        </span>
+      )}
       <p className="project-description">{t[project.descKey]}</p>
       <div className="project-tech">
         {project.tech.map(tag => <span key={tag} className="tech-tag">{tag}</span>)}
